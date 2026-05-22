@@ -15,6 +15,13 @@ st.header("Three", divider=True)
 st.header("Four", divider=True)
 st.markdown("*Streamlit* is **really** ***cool***.")
 st.markdown('''
+st.subheader("_Streamlit_ is :blue[cool] :sunglasses:")
+st.subheader("This is a subheader with a divider", divider="gray")
+st.subheader("These subheaders have rotating dividers", divider=True)
+st.subheader("One", divider=True)
+st.subheader("Two", divider=True)
+st.subheader("Three", divider=True)
+st.subheader("Four", divider=True)
     :red[Streamlit] :orange[can] :green[write] :blue[text] :violet[in]
     :gray[pretty] :rainbow[colors] and :blue-background[highlight] text.''')
 st.markdown("Here's a bouquet &mdash;\
